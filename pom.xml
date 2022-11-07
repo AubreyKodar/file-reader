@@ -10,8 +10,8 @@
 	</parent>
 	<groupId>com.aubrey</groupId>
 	<artifactId>filereader</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<version>0.0.1</version>
+	<packaging>jar</packaging>
 	<name>filereader</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -34,7 +34,6 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -42,6 +41,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>file-reader-service</finalName>
 	</build>
-
 </project>
