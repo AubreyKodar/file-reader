@@ -41,4 +41,4 @@ The following query parameters are required
 
 The skip and limit parameters have been included to allow the API consumer to control how many results are returned per request to cater for cases where the specified directory may contain a huge number of files.
 
-NB: A postman collection has been included with an example request.
+NB: A postman collection has been included with an example request (File Explorer REST API.postman_collection.json).
